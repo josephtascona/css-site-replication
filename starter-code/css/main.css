@@ -1,0 +1,120 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: relative;
+  background-color: #556D9B;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+.instagram {
+  position: absolute;
+  right: 450px;
+  bottom: 140px;
+}
+main {
+  position: relative;
+}
+.frame {
+  position: absolute;
+  right: 266px;
+  top: -125px;
+  z-index: 0;
+}
+.phones {
+  position: absolute;
+  left: 190px;
+  top: -250px;
+}
+.login {
+  z-index: 1;
+  border: 1px solid #444;
+  background-color: #6F88B0;
+  color: white;
+  max-width: 100px;
+  padding: 0 5px;
+  font-weight: 800;
+  border-radius: 5%;
+  position: absolute;
+  right: 280px;
+  bottom: 150px;
+  display: block;
+}
+.login img {
+  margin-top: 15px;
+  margin-right: 7px;
+  float: left;
+  display: inline-block;
+}
+
+.login p {
+  margin-right: 2px;
+  float: right;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  margin: auto;
+  padding: 70px 0;
+  margin-top: 260px;
+}
+footer p {
+  display: inline-block;
+  color: #556D9B;
+  font-weight: 900;
+  padding: 12px;
+}
+#copyright {
+  color: #C0C0C3;
+}
+.iphone {
+  position: absolute;
+  bottom: -260px;
+  left: 600px;
+}
+.android {
+  position: absolute;
+  bottom: -260px;
+  left: 780px;
+}
+h1 {
+  color: rgb(49, 66, 102);
+  position: absolute;
+  max-width: 250px;
+  left: 620px;
+  top: -105px;
+  z-index: 1;
+  font-size: 150%;
+}
+main p {
+  position: absolute;
+  max-width: 400px;
+  left: 620px;
+  top: -15px;
+  z-index: 1;
+}
+#second-line {
+  top: 45px;
+}
+#third-line {
+  top: 153px;
+}
+.background-white {
+  width: 487px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  z-index: 0;
+  top: -117px;
+  left: 588px;
+  border-radius: 1%;
+}
